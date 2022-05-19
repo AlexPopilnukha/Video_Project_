@@ -1,11 +1,11 @@
-let phrase=['E','n','j','o','y']
+let enjoy=['E','n','j','o','y']
 let your = ['y','o','u','r']
 let day= ['d','a','y']
-let boxForLetters=document.querySelector('#boxForLetters')
+let boxForLetters1=document.querySelector('#boxForLetters')
 let boxForLetters2=document.querySelector('#boxForLetters2')
 let boxForLetters3=document.querySelector('#boxForLetters3')
 
-let b = 0
+
 
 window.onload=  function (){
 
@@ -13,8 +13,8 @@ window.onload=  function (){
     let count=-1
     function ff (){
         count+=1
-        boxForLetters.innerText+=phrase[count]
-        if (count===phrase.length-1){
+        boxForLetters1.innerText+=enjoy[count]
+        if (count===enjoy.length-1){
             clearInterval(interval)
         }
     }
