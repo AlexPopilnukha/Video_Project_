@@ -1,0 +1,53 @@
+header{
+    height: 100vh;
+    position: relative;
+    display: grid;
+    place-items: center;
+}
+.videoBox{
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+#boxForLetters{
+    display: flex;
+    color: ghostwhite;
+    z-index: 1;
+    font-size: 30px;
+    font-style: italic;
+    width: 80px;
+    height: 40px;
+    text-align: center;
+}
+#boxForLetters2{
+    display: flex;
+    color: ghostwhite;
+    z-index:1;
+    font-size: 30px;
+    font-style: italic;
+    width: 80px;
+    height: 40px;
+    text-align: center;
+    margin-left: 10px;
+}
+#boxForLetters3{
+    display: flex;
+    color: ghostwhite;
+    z-index:1;
+    font-size: 30px;
+    font-style: italic;
+    width: 80px;
+    height: 40px;
+    text-align: center;
+    margin-left: -10px;
+}
+#mainBoxForLetters{
+    width: 250px;
+    height: 40px;
+    display: flex;
+}
+
